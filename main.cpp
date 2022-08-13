@@ -16,5 +16,11 @@ int main() {
     pointerD--;
     cout << "После декремента указателя d (ссылка): " << pointerD << endl;
     cout << "После декремента указателя d (значение): " << *pointerD << endl;
+
+    cout << "До увеличения указателя d на 2 (ссылка): " << pointerD << endl;
+    cout << "До увеличения указателя d на 2(значение): " << *pointerD << endl;
+    pointerD += 2;
+    cout << "После увеличения указателя d на 2 (ссылка): " << pointerD << endl;
+    cout << "После увеличения указателя d на 2 (значение): " << *pointerD << endl;
     return 0;
 }
